@@ -1,0 +1,62 @@
+
+
+body{
+background-image: radial-gradient(circle, red, yellow);
+font-family: 'Raleway', sans-serif;}
+*{
+  margin: 0;
+  padding: 0;
+}
+.text{
+  text-align: center;
+  background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,198,233,1) 100%);
+  width: 20%;
+  margin-left: 40%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 15px;
+  text-decoration: none;
+  word-spacing: 10px;
+
+}
+.container{
+  border: 1px solid black;
+  margin: 5% 25%;
+  background: rgb(63,94,251);
+background: linear-gradient(90deg, rgba(63,94,251,1) 1%, rgba(252,70,107,1) 83%);
+}
+label{
+  border-style:none;
+  padding:10px;
+  margin: 1% 2% 3% 4%;
+}
+input{
+  margin: 1%;
+  border-style: none;
+  border-bottom-style: solid;
+}
+p{
+  padding: 10px;
+    margin: 1% 2% 0%;
+    }
+textarea{
+  width: 90%;
+  margin-left: 15px;
+}
+#one{
+  background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+margin:  1% 2% 3% 1%;
+}
+form{
+  margin-left: 2%;
+}
+button{
+  width: 15%;
+  margin: 1% 2% 3% 4%;
+  border-radius: 20px;
+  background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 59%, rgba(185,189,92,1) 69%);
+}
